@@ -9,10 +9,13 @@ def sub(a,b):
 	pass
 
 def multipli(a,b):
-	pass
+	a, b = int(a), int(b)
+	return a * b
 
 def division(a,b):
-	pass
+	a, b = int(a), int(b)
+	return a / b
+
 
 print("Введите два чиcла и укажите операцию")
 num_a = input("num 1: ")
