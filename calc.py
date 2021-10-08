@@ -6,8 +6,7 @@ def sum(a,b):
 	return a + b
 
 def sub(a,b):
-	a, b = int(a), int(b)
-	return a - b
+	pass
 
 def multipli(a,b):
 	pass
